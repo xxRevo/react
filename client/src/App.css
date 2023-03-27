@@ -18,6 +18,34 @@ form {
 	flex-direction: column;
 }
 
+.title {
+  margin-top: 5px;
+  font-size : 30px;
+  font-weight: bold;
+  color: #282c34;
+}
+
+ul {
+  margin-top: -20px;
+  margin-bottom: -5px;
+}
+
+ul li {
+  list-style-type: square;
+  margin-left: -5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: -10px;
+	color: #282c34;
+  font-weight: bold;
+  font-size : 20px;
+  text-align:left;
+}
+
 button {
   background-color: #282c34;
   color: #ffffff;
@@ -31,7 +59,9 @@ button {
 
 label {
 	margin-top: 20px;
-	color: #666666;
+  font-weight: bold;
+  font-size : 20px;
+	color: #282c34;
 }
 
 input[type=text], input[type=password] {
